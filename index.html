@@ -4,16 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link href="/CSS/styles.css" rel="stylesheet"/>
     <title>Architure</title>
 </head>
 <body>
-    <header>
+    <header class="container">
       <nav>
-        
+        <div class="flex flex-row justify-between">
+            <img src="/Images/default-logo.png" alt="logo"/>
+            <span class="material-symbols-outlined">menu</span>
+        </div>
       </nav>
+      <aside class="hidden">
+        <span class="material-symbols-outlined">close</span>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Page 4</a></li>
+        </ul>
+      </aside>
     </header>
-    <main></main>
+    <main>
+        <section class="bg-[url('/Images/bg.jpg')]">
+          <div class="container grid grid-cols-2">
+            <div>
+              <h1>Architects Co</h1>
+              <p>Accumsan in nisl nisi scelerisque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae. Maecenas ultricies mi eget mauris pharetra et ultrices neque.</p>
+              <p>Image from <a href="https://www.freepik.com/popular-photos">Freepik</a></p>
+              <button>READ MORE</button>
+            </div>
+            <div>
+              <img src="/Images/male-contructoravif.avif" alt="male contructor" />
+            </div>
+          </div>
+        </section>
+<!-- 
+        section two starts -->
+       <section>
+          <div class="container">
+            <div class="grid grid-cols-2">
+                <div>
+                    <img src="/Images/ladyavif.jpg" alt="lady standing" />
+                  </div>
+                  <div>
+                     <h1>About Us</h1>
+                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                     <p>Image from <a href="https://www.freepik.com/popular-photos">Freepik</a></p>
+                     <button>BOOK A CALL</button>
+                  </div>
+            </div>
+            <div class="lg:flex lg:flex-row">
+               <article>
+                 <div class="flex flex-row">
+                  <h1>01</h1>
+                  <h4>Develop​ment</h4>
+                 </div>
+                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+               </article>
+
+               <article>
+                <div class="flex flex-row">
+                 <h1>02</h1>
+                 <h4>Design projects</h4>
+                </div>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+              </article>
+
+              <article>
+                <div class="flex flex-row">
+                 <h1>03</h1>
+                 <h4>New materials</h4>
+                </div>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+              </article>
+            </div>
+          </div>
+       </section>
+    </main>
     <footer></footer>
 </body>
 </html>
