@@ -4,10 +4,152 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link href="/CSS/styles.css" rel="stylesheet"/>
     <title>Architure</title>
 </head>
 <body>
-    <h1 class="text-blue-700 text-center font-medium">I miss u so much</h1>
+    <header class="container py-4">
+      <nav>
+        <div class="flex flex-row justify-between">
+            <img src="/Images/default-logo.png" alt="logo"/>
+            <span class="material-symbols-outlined text-4xl cursor-pointer hover:text-backgroundColor btn">menu</span>
+        </div>
+      </nav>
+      <aside class="bg-textColor text-white absolute top-0 left-0 w-56 h-full py-7 px-3 flex flex-col hide my-side">
+        <span class="material-symbols-outlined ml-auto cursor-pointer close">close</span>
+        <ul class="text-center py-7 text-xl font-family space-y-2">
+          <li><a href="">Home</a></li>
+          <li><a href="">Page 4</a></li>
+        </ul>
+      </aside>
+    </header>
+    <main>
+        <section class="bg-[url('/Images/bg.jpg')] pb-20">
+          <div class="lg:grid lg:grid-cols-2 font-family">
+            <div class="py-12 pl-40">
+              <h1 class="text-5xl font-bold text-backgroundColor">Architects Co</h1>
+              <div class="mt-5 text-lg">
+                <p class="lg:w-[70%]">Accumsan in nisl nisi scelerisque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae. Maecenas ultricies mi eget mauris pharetra et ultrices neque.</p>
+                <p class="py-10">Image from <a href="https://www.freepik.com/popular-photos" class="underline">Freepik</a></p>
+                <button class="py-4 px-16 rounded-3xl bg-backgroundColor text-white font-medium text-xl">READ MORE</button>
+              </div>
+            </div>
+            <div>
+              <img src="/Images/male-contructoravif.avif" alt="male contructor" class="object-fill w-full"/>
+            </div>
+          </div>
+        </section>
+<!-- 
+        section two starts -->
+       <section class="py-12">
+          <div class="container font-family text-textColor">
+            <div class="lg:grid lg:grid-cols-2 gap-4 py-10">
+                <div>
+                    <img src="/Images/ladyavif.jpg" alt="lady standing" class="object-fill lg:w-[70%] lg:ml-auto" />
+                  </div>
+                  <div class="mt-14">
+                     <h1 class="text-5xl font-bold">About Us</h1>
+                     <p class="font-light pt-3 pr-32 text-lg">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+                     <p class="pt-4 font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                     <p class="py-8">Image from <a href="https://www.freepik.com/popular-photos" class="underline">Freepik</a></p>
+                     <button class="py-4 px-16 rounded-3xl bg-backgroundColor text-white font-medium text-xl">BOOK A CALL</button>
+                  </div>
+            </div>
+            <div class="lg:flex lg:flex-row py-3 gap-8 font-family">
+               <article>
+                 <div class="flex flex-row gap-8 py-5">
+                  <h1 class="text-6xl text-backgroundColor font-bold">01</h1>
+                  <h4 class="text-textColor font-semibold text-2xl my-auto">Develop​ment</h4>
+                 </div>
+                 <p class="italic font-extralight text-base">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+               </article>
+
+               <article>
+                <div class="flex flex-row gap-8 py-5">
+                 <h1 class="text-6xl text-backgroundColor font-bold">02</h1>
+                 <h4 class="text-textColor font-semibold text-2xl my-auto">Design projects</h4>
+                </div>
+                <p class="italic font-extralight text-base">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+              </article>
+
+              <article>
+                <div class="flex flex-row gap-8 py-5">
+                 <h1 class="text-6xl text-backgroundColor font-bold">03</h1>
+                 <h4 class="text-textColor font-semibold text-2xl my-auto">New materials</h4>
+                </div>
+                <p class="italic font-extralight text-base">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+              </article>
+            </div>
+          </div>
+       </section>
+
+       <!-- section three -->
+       <section class="bg-backgroundColor text-white font-family">
+        <div class="container pt-16 pb-0">
+           <div class="lg:grid lg:grid-cols-2 pt-10">
+              <div>
+                <img src="Images/ladyavatar.avif" alt="an engineer woman" class="rounded-full w-56 h-52 ml-auto"/>
+                <div class="py-8">
+                    <h2 class="text-6xl font-bold">Benefits of working <br>with us</h2>
+                    <P class="mt-5 font-normal text-lg pr-20">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</P>
+                    <p class="py-8 text-lg">Image from <a href="https://www.freepik.com/popular-photos" class="underline">Freepik</a></p>  
+                </div>
+                <img src="Images/twomen.avif" alt="two men togther" class="rounded-full w-56 h-52 ml-auto" />
+            </div>
+            <div>
+              <img src="/Images/manInSuit.avif" alt="man in suit" class="rounded-full w-11/12 h-[60%] ml-auto"/>
+              <article class="bg-white text-textColor p-6 w-[60%] translate-x-36 -translate-y-16 rounded-lg">
+                <p class="py-5 text-base text-[#999999] font-bold">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ​Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="" class="text-black font-medium border-b border-backgroundColor">LEARN MORE</a>  
+            </article>
+            </div>
+        </div>
+       </section>
+
+       <!-- fourth section -->
+       <section class="pt-52 pb-52 font-family text-textColor relative">
+         <div class="w-[80%] mx-auto bg-backgroundColor rounded-l-2xl">
+            <img src="/Images/cv.jpg" alt="contructors" class="w-[80%] mx-auto rounded-3xl -translate-y-32"/>
+         </div>
+         <div class="bg-white py-8 w-[45%] px-12 ml-auto rounded-3xl absolute right-0 bottom-28">
+            <h1 class="text-5xl font-bold">Full-Service Engineering</h1>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+            <p class="py-10">Image from <a href="https://www.freepik.com/popular-photos" class="underline">Freepik</a></p>
+            <button class="py-4 px-16 rounded-3xl bg-backgroundColor text-white font-medium text-xl">LEARN MORE</button>
+         </div>
+       </section>
+
+       <!-- fifth section -->
+       <section class="font-family text-textColor pt-16 lg:relative">
+        <img src="Images/bg2.jpg" alt="engineer on laptop" />
+         <div class="container">
+            <div class="lg:flex lg:flex-row gap-10 lg:absolute -bottom-6 right-10 left-10">
+                <article class="bg-white py-8 px-6 rounded-3xl">
+                  <h1 class="text-3xl w-fit text-white font-bold py-6 px-7 bg-backgroundColor rounded-full">01</h1>
+                  <p class="py-8 italic">Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Magna fermentum iaculis eu non diam phasellus vestibulum. Et tortor consequat id porta nibh venenatis cras sed.</p>
+                  <a href="" class="text-black font-medium border-b border-backgroundColor">MORE</a> 
+                </article>
+                <article class="bg-white py-8 px-6 rounded-3xl">
+                    <h1 class="text-3xl w-fit text-white font-bold py-6 px-7 bg-backgroundColor rounded-full">02</h1>
+                    <p class="py-8 italic">Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Magna fermentum iaculis eu non diam phasellus vestibulum. Et tortor consequat id porta nibh venenatis cras sed.</p>
+                    <a href="" class="text-black font-medium border-b border-backgroundColor">MORE</a> 
+                  </article>
+                  <article class="bg-white py-8 px-6 rounded-3xl">
+                    <h1 class="text-3xl w-fit text-white font-bold py-6 px-7 bg-backgroundColor rounded-full">03</h1>
+                    <p class="py-8 italic">Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Magna fermentum iaculis eu non diam phasellus vestibulum. Et tortor consequat id porta nibh venenatis cras sed.</p>
+                    <a href="" class="text-black font-medium border-b border-backgroundColor">MORE</a> 
+                  </article>
+            </div>
+         </div>
+       </section>
+
+       <!-- section 6 -->
+       <section class="bg-backgroundColor">
+
+       </section>
+    </main>
+    <footer></footer>
+    <script src="app.js"></script>
 </body>
 </html>
